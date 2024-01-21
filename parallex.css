@@ -1,0 +1,53 @@
+html,body{
+    height: 100%;
+    margin: 0%;
+    font-family:, sans-serif;
+    line-height: 1m;
+    color: #666;
+}
+.image1{
+    background-image:url(images/image1.png) ;
+    min-height: 100%;
+}
+.image2{
+    background-image:url(images/image2.png) ;
+    min-height: 400px;
+}
+.image3{
+    background-image:url(images/image3.png) ;
+    min-height: 400px;
+}
+.image1,
+.image2,
+.image3{
+    position: relative;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing:8px ;
+    text-transform: uppercase;
+}
+.textbg{
+    background-color:rgb(41, 35, 35);
+    color: #fff;
+    padding: 20px;
+}
+.section{
+    padding: 50px 50px;
+    text-align: center;
+}
+
+
+.section-dark{
+    background-color: rgb(41, 35, 35);
+   
+}
